@@ -32,6 +32,8 @@ Para configurar y ejecutar el proyecto localmente, siga estos pasos:
 
 7. Ejecutar los Jupyter Notebooks para ejecutar análisis de regresión y agrupamiento.
 
+* Paso extra: Si llegaste hasta el paso 5 y no pudiste obtener correctamente el archivo mencionado, puede ir al repositorio en github (link del paso 3), seleccionar el archivo y descargarlo como RAW.
+
 ## Cómo utilizar el proyecto
 Los Jupyter Notebooks proporcionan una guía paso a paso para los análisis de regresión y agrupamiento. Consulte los siguientes notebooks para tareas específicas:
 
