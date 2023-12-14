@@ -13,16 +13,24 @@ Además, este proyecto sirve como ejemplo práctico de cómo se puede estructura
 ## Cómo instalar y ejecutar el proyecto
 Para configurar y ejecutar el proyecto localmente, siga estos pasos:
 
-1. Clonar el repositorio en tu máquina local:
-`git clone https://github.com/your-username/energy-analysis-project.git`
+1. Debes instalar git lfs para poder descargar el archivo original automáticamente. Esto se puede hacer siguiendo los pasos en el siguiete URL: https://git-lfs.com/
 
-2. Navegue hasta el directorio del proyecto:
+2. Abre una terminal y navega hasta el directorio donde quieras tener el repositorio local:
 `cd proyecto-análisis-energético`
 
-3. Instalar las dependencias necesarias:
+3. Clonar el repositorio en tu máquina local:
+`git clone https://github.com/RamiroSclerandi/ProyectoAnalisisEnergetico.git`
+
+4. Inicializar git LFS con el siguiente comando en el directorio seleccionado:
+`git lfs install`
+
+5. Verifica que tengas el archivo 'ProyectoEndToEnd.ipynb' con el siguiente comando:
+`git ls`
+
+6. Instalar las dependencias necesarias:
 `pip install -r requisitos.txt`
 
-4. Ejecutar los Jupyter Notebooks para ejecutar análisis de regresión y agrupamiento.
+7. Ejecutar los Jupyter Notebooks para ejecutar análisis de regresión y agrupamiento.
 
 ## Cómo utilizar el proyecto
 Los Jupyter Notebooks proporcionan una guía paso a paso para los análisis de regresión y agrupamiento. Consulte los siguientes notebooks para tareas específicas:
